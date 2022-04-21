@@ -1,0 +1,18 @@
+{
+  "require": {
+    "symfony/var-dumper": "^5.4",
+    "vlucas/phpdotenv": "^5.4",
+    "ext-json": "*",
+    "aura/sql": "^4.0",
+    "ext-pdo": "*",
+    "filp/whoops": "^2.14",
+    "guzzlehttp/guzzle": "^7.4",
+    "ext-curl": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Components\\": "app",
+      "src\\": "src"
+    }
+  }
+}
